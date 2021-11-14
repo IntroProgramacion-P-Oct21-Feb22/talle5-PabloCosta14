@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author SALAA
+ * @author PabloCosta14
  */
 public class Problema1 {
 
@@ -28,7 +28,7 @@ public class Problema1 {
         double porcentaje = 10;
         double descuento;
         double valortotal;
-        double valortotal2;
+        
 
         System.out.println("Ingrese el costo por kilovatio hora");
         costokilovatiohora = entrada.nextDouble();
@@ -45,15 +45,11 @@ public class Problema1 {
        if(edad >=65){
            descuento = (porcentaje * valortotal)/100;
            valortotal = (valortotal - descuento);
-           System.out.printf( "valor total a pagar es + %.2f\n" , valortotal);
-    } else { 
-           valortotal = costokilovatiohora * kilovatiosconsumidosmes;
-       }
-    
-
-          System.out.printf( "valor total a pagar es + %.2f\n" , valortotal);
+           
+   
     }
-
+    System.out.printf( "valor total a pagar es  %.2f\n" , valortotal);
 }
-
+    
+}
 
